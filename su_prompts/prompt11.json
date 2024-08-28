@@ -1,0 +1,13 @@
+{
+    "smoking": ["Are there any people holding a cigaret and smoking?"],
+    "hailing": ["Are people hailing a taxi?"],
+    "ped_on_lawn": ["Are there pedestrians on the grass lawn?"],
+    "crowd": ["Are there many people gathering together?"],
+    "tent": ["Are there are people setting up tents"],
+    "destruction": ["Are there any intentional vandalism"],
+    "fire": ["Are there on fire or any indicates such as flames, smoke, or charred objects?"],
+    "flood": ["Are there any flooding?"],
+    "trash": ["Are there trash or rubbish on the ground?"],
+    "fallen_leaves": ["Are there any fallen leaves on the ground"],
+    "illegal_parking": ["Are there any cars/vehicles parking in a no-parking zone?"]
+}

@@ -1,0 +1,4622 @@
+{
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_1.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are people holding a cigarette and smoking in the image.",
+            "hailing": "No, people are not hailing a taxi in the image. They are standing on the side of the road, waiting to cross the street.",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, and they are walking along the sidewalk.",
+            "crowd": "Yes, there is a large group of people gathering together on the side of the road.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a group of people standing on the side of a road, waiting to cross the street.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The street is clean and clear of any debris.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is causing a traffic jam.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_10.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man in the crowd who is holding a cigarette and smoking.",
+            "hailing": "No, the people in the image are not hailing a taxi. They are gathered in a crowd, and a man is holding a red flag.",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, and they are standing in a crowd.",
+            "crowd": "Yes, there is a large crowd of people gathered together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The man is holding a flag and standing in a crowd of people.",
+            "trash_or_fallen_leaves": "No, there are no trash or rubbish on the ground. The ground is clean, and there are no fallen leaves either.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is causing a problem for the people trying to attend the event.",
+            "faint": "Yes, there are people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": true
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_2.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are people walking down the street and smoking cigarettes.",
+            "hailing": "Yes, people are hailing a taxi on the street at night.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a group of people walking down a city street.",
+            "crowd": "Yes, there is a large group of people gathering together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a group of people walking down a street at night, with cars parked on the side of",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The street is clean and clear of any debris.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is causing a problem for the people walking on the street.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": false,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_3.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man holding a cigarette and smoking in the image.",
+            "hailing": "No, people are not hailing a taxi in this image. They are standing in a line, waiting for something, and there are tents and flags",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, and they are walking around and socializing.",
+            "crowd": "Yes, there is a large group of people gathering together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a group of people gathered in a field, and there are no signs of a fire.",
+            "trash_or_fallen_leaves": "No, there are no trash or rubbish on the ground. The ground is clean and clear of any debris.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is causing an issue for the people trying to access the area.",
+            "faint": "Yes, there are people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": true
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_4.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man holding a cigarette and smoking while standing in the crowd.",
+            "hailing": "No, people are not hailing a taxi in the image. They are holding signs and participating in a parade or demonstration.",
+            "ped_on_lawn": "Yes, there are pedestrians walking on the grass lawn.",
+            "crowd": "Yes, there is a large group of people gathering together on the street.",
+            "fire_or_flood": "No, there is no fire in the image. The people are standing on the street with a banner and a large sign.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean, and the people are standing on it.",
+            "illegal_parking": "Yes, there is a bus parked in a no-parking zone, which is causing a traffic jam.",
+            "faint": "No, there are no people lying on the ground in the image. The people are standing on the street, holding signs and participating in a protest."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_5.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man holding a cigarette and smoking while standing in the group of people.",
+            "hailing": "No, the people in the image are not hailing a taxi. They are standing on the side of the road with a large banner or sign,",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a group of people standing on a street.",
+            "crowd": "Yes, there is a large group of people gathered together, standing on the street and holding a banner.",
+            "fire_or_flood": "No, there is no fire in the image. The group of people is standing on the street with a large banner or sign.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The street is clean and clear.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is causing a problem for the protesters.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_6.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are people holding a cigarette and smoking in the image.",
+            "hailing": "No, the people in the image are not hailing a taxi. They are gathered together, possibly participating in a protest or demonstration, and some",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, and they are wearing face masks.",
+            "crowd": "Yes, there is a large group of people gathered together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a group of people standing outside a building, possibly in front of a stage.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean, and the people are standing on a red",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_7.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are people in the crowd who are smoking cigarettes.",
+            "hailing": "No, people are not hailing a taxi in the image. They are walking down a crowded street, and some of them are carrying backpacks",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a crowd of people walking down a narrow street or alley.",
+            "crowd": "Yes, there is a large crowd of people gathered together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The scene depicts a large crowd of people walking down a street, with no indication of a fire",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground in the image.",
+            "illegal_parking": "No, there are no cars or vehicles parking in a no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image. The scene shows a crowd of people walking down a narrow street, with some of them carrying"
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_8.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person holding a cigarette and smoking in the crowd of people.",
+            "hailing": "No, people are not hailing a taxi in the image. They are gathered around a metal fence, trying to get into a building or event.",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, and they are standing in line.",
+            "crowd": "Yes, there is a large crowd of people gathered together, forming a large group.",
+            "fire_or_flood": "No, there is no fire in the image. The scene depicts a large crowd of people gathered around a metal fence, with some of them trying",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "Yes, there is a person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_9.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man holding a cigarette and smoking in the crowd of people.",
+            "hailing": "No, people are not hailing a taxi. Instead, they are participating in a protest or gathering, with some of them holding signs.",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, and they are gathered around a man who is holding a camera.",
+            "crowd": "Yes, there is a large crowd of people gathered together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a large crowd of people gathered in a city, with some of them holding signs.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is causing a problem for the protesters.",
+            "faint": "Yes, there is a person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": true
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_1.jpg": {
+        "answer_dict": {
+            "smoking": "No, there is no person holding a cigarette and smoking in the image. The woman is lying on the grass, and there are no signs of",
+            "hailing": "No, there is no indication of people hailing a taxi in the image. The woman is lying on the grass, and there are no other people",
+            "ped_on_lawn": "Yes, there are pedestrians walking on the grass lawn in the image.",
+            "crowd": "No, there are only a few people in the image, and the woman is the main focus.",
+            "fire_or_flood": "No, there is no fire in the image. The woman is lying on the grass in a park, not in a fire-affected area.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground where the woman is lying.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "Yes, there is a woman lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_10.jpg": {
+        "answer_dict": {
+            "smoking": "No, there is no person holding a cigarette and smoking in the image. Instead, there is a person lying on the road, possibly dead or",
+            "hailing": "No, there is no indication of people hailing a taxi in the image. Instead, a person is lying on the road, possibly on a highway",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image features a person lying on the road.",
+            "crowd": "No, there is only one person, a man, lying on the road.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a person lying on the road, possibly after a car accident.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "Yes, there is a person lying on the ground, specifically on the road."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_2.jpg": {
+        "answer_dict": {
+            "smoking": "No, there is no person holding a cigarette and smoking in the image. The man is lying on the ground, possibly on a crosswalk,",
+            "hailing": "No, there is no indication of people hailing a taxi in the image. The man is lying on the ground, possibly on a crosswalk,",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a man lying on the street.",
+            "crowd": "No, there is only one person, a man, lying on the ground in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The man is lying on the ground, possibly on a road or a parking lot, and he is not",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "Yes, there is a man lying on the ground, specifically on a street."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_3.jpg": {
+        "answer_dict": {
+            "smoking": "No, there is no person holding a cigarette and smoking in the image. Instead, there is a man lying on the ground, possibly sleeping",
+            "hailing": "No, there is no indication of people hailing a taxi in the image. The man is lying on the ground, possibly on a sidewalk or",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a man lying on the sidewalk.",
+            "crowd": "No, there is only one person, a man, lying on the ground in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The man is lying on the ground, possibly on a sidewalk, and there is no indication of a",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "Yes, there is a person lying on the ground, specifically on a sidewalk."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_4.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person holding a cigarette and smoking while lying on the sidewalk.",
+            "hailing": "No, there is no indication of people hailing a taxi in the image. Instead, a man is lying on the sidewalk next to a man",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a man lying on the sidewalk, not on the grass lawn",
+            "crowd": "No, there is only one person, a man, lying on the sidewalk.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a man lying on the side of the road, possibly sleeping or resting.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground near the person who is lying down.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone.",
+            "faint": "Yes, there is a person lying on the ground, specifically on a sidewalk."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": true
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_5.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man lying on the ground, holding a cigarette and smoking.",
+            "hailing": "No, there is no indication of people hailing a taxi in the image. Instead, a man is lying on the ground with a stroller,",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a man lying on the ground, possibly on a sidewalk or a",
+            "crowd": "No, there is only one person, a man, lying on the ground in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The man is lying on the ground, possibly on a sidewalk, and there is no indication of a",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground where the man is lying.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone, which is causing an obstruction for the man lying on the ground.",
+            "faint": "Yes, there is a man lying on the ground."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": true
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_6.jpg": {
+        "answer_dict": {
+            "smoking": "No, there is no person holding a cigarette and smoking in the image. Instead, there is a person lying on the ground with a cane",
+            "hailing": "No, there is no indication in the image that people are hailing a taxi. The scene shows a person lying on the ground with a cane",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a person lying on the ground, possibly a woman, with a can",
+            "crowd": "No, there is only one person, a woman, lying on the ground.",
+            "fire_or_flood": "No, there is no fire in the image.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground where the person is lying.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "Yes, there is a person lying on the ground, specifically on a sidewalk."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_7.jpg": {
+        "answer_dict": {
+            "smoking": "No, there is no person holding a cigarette and smoking in the image. The image shows a man lying on the ground, possibly after a fall",
+            "hailing": "No, there is no indication of people hailing a taxi in the image. The man is lying on the ground, possibly on a dirty floor,",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a man lying on the ground, possibly on a dirty floor.",
+            "crowd": "No, there is only one person, a young man, lying on the ground in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The man is lying on the ground, possibly on a dirty floor, and there is no indication of a",
+            "trash_or_fallen_leaves": "Yes, there are trash and rubbish on the ground where the man is lying.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "Yes, there is a man lying on the ground."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_8.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man holding a cigarette and smoking while another person is lying on the ground.",
+            "hailing": "No, the image does not depict people hailing a taxi. Instead, it shows a man lying on the ground, possibly after being hit by a",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a man lying on the ground, possibly on a sidewalk or a",
+            "crowd": "No, there is only one person, a man, lying on the ground.",
+            "fire_or_flood": "No, there is no fire in the image. The man is lying on the ground, possibly on a street, and there is no indication of a fire",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "Yes, there is a man lying on the ground."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_9.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The image shows a man kneeling on the ground, possibly crying",
+            "hailing": "No, there are no people hailing a taxi in the image. Instead, there are two men on a soccer field, one of them is kne",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a man kneeling on the grass, possibly crying or in pain",
+            "crowd": "No, there are only two people in the image, and they are both on the ground.",
+            "fire_or_flood": "No, there is no fire in the image. The man is simply kneeling on the grass and appears to be in distress.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and green.",
+            "illegal_parking": "No, there are no cars or vehicles parking in a no-parking zone in the image.",
+            "faint": "Yes, there is a person lying on the ground, specifically on a soccer field."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_1.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. Instead, there is a car on fire, and the fire is spread",
+            "hailing": "No, there are no people hailing a taxi in the image. Instead, there is a car on fire on the street.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows a car on fire, and the street appears to be empty.",
+            "fire_or_flood": "Yes, there is a fire on the street, specifically a car on fire.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The scene shows a fire on the street, and the ground is",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone, which is causing a fire hazard.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_10.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The fire is burning in the street, and there is a fire hyd",
+            "hailing": "No, there are no people hailing a taxi in the image. Instead, there is a fire in the backyard of a house.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows a fire in the middle of a street, with a fire hydrant nearby.",
+            "fire_or_flood": "Yes, there is a fire in the image, and it is located in the backyard of a house.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground near the fire.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone in front of a house.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_2.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. Instead, there is a fire in a trash can, which is",
+            "hailing": "No, there are no people hailing a taxi in the image. Instead, there is a fire in a trash can, which is located near a",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The area is empty.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows a fire in a trash can, and there are no people around it.",
+            "fire_or_flood": "Yes, there is a fire in the image, and it appears to be burning in a trash can.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground near the trash cans.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is causing a fire to spread.",
+            "faint": "Yes, there is a person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_3.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. Instead, there is a small car on fire on the street.",
+            "hailing": "No, there are no people hailing a taxi in the image. Instead, there is a small car driving down the street with smoke coming out of it",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The scene is focused on the car and the fire.",
+            "crowd": "No, there are no people gathered together in the image. The scene shows a small car driving down a street with smoke coming out of it, and there are",
+            "fire_or_flood": "Yes, there is a fire on the street, and it appears to be a car fire.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The street is clean and clear.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone, which is causing a fire.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_4.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The scene shows a car on fire on a highway, with smoke bill",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a car on fire on a highway, with smoke billowing from",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn.",
+            "crowd": "No, there are no people gathered together in the image. The scene shows a car on fire on a highway, with smoke billowing into the sky.",
+            "fire_or_flood": "Yes, there is a fire on the road, and it appears to be a car fire.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground near the highway.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is causing a fire to spread.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_5.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. Instead, there is a fire in a trash can, which is",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a fire in a trash can, with smoke coming out of it",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The scene is focused on the fire in the trash can.",
+            "crowd": "No, there are no people gathered together in the image. The scene shows a fire in a trash can, with a few people standing nearby.",
+            "fire_or_flood": "Yes, there is a fire in the image, specifically a fire in a trash can.",
+            "trash_or_fallen_leaves": "Yes, there are trash or rubbish on the ground, and there are also fallen leaves on the ground.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_6.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image. Instead, there is a car on fire, and a bicycle is parked",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, and they are walking past the burning car.",
+            "crowd": "No, there are no people gathered together in the image. The scene shows a car on fire, and the street appears to be empty.",
+            "fire_or_flood": "Yes, there is a car on fire in the image.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground near the car.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone, which has caught fire.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_7.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The scene shows a car on fire, and there are no people present",
+            "hailing": "No, there are no people hailing a taxi in the image. Instead, there is a car that has caught fire on the street.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn.",
+            "crowd": "No, there are no people gathered together in the image.",
+            "fire_or_flood": "Yes, there is a car on fire in the image.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The scene is clean and well-maintained.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone, which is causing a fire to spread.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_8.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. Instead, there is a car on fire, and the fire is spread",
+            "hailing": "No, there are no people hailing a taxi in the image. Instead, there is a car on fire on the road.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn.",
+            "crowd": "No, there are no people gathered together in the image. The scene shows a car on fire, and the fire is spreading to the truck behind it",
+            "fire_or_flood": "Yes, there is a fire on the road, specifically a car on fire.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The image shows a car on fire, and the ground is clean",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone, and it is on fire.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_9.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. Instead, there is a fireman using a hose to put out",
+            "hailing": "No, there is no indication of people hailing a taxi in the image. Instead, there is a fireman using a hose to put out",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The scene is focused on the fire truck and the firefighter.",
+            "crowd": "No, there is only one person, a fireman, who is standing on the side of the road and watching the fire.",
+            "fire_or_flood": "Yes, there is a fire on the road, and a fire truck is spraying water on it to extinguish the flames.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone, and a fire truck is spraying water on it.",
+            "faint": "Yes, there is a person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_1.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man in the image who is holding a cigarette and smoking.",
+            "hailing": "No, the people in the image are not hailing a taxi. They are standing on a street corner, and one of them is pointing at something.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a man and a woman standing on the sidewalk.",
+            "crowd": "No, there are only two people, a man and a woman, standing together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a man and a woman standing on a street, with the man pointing his finger.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone, which is visible in the image.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_10.jpg": {
+        "answer_dict": {
+            "smoking": "No, the image does not show a person holding a cigarette and smoking. Instead, the woman is pointing at something while standing on a rocky",
+            "hailing": "No, the image does not depict a person hailing a taxi. Instead, a woman is standing on a rocky hillside, pointing towards the",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a woman standing on a rocky hillside with her backpack.",
+            "crowd": "No, there is only one person, a woman, standing on the side of the road.",
+            "fire_or_flood": "No, there is no fire in the image. The woman is standing on a rocky hillside with her backpack, pointing to the direction she is going",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "No, there are no cars or vehicles parking in a no-parking zone in the image.",
+            "faint": "No, there is no person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_2.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a woman in the image who is smoking a cigarette while standing on the sidewalk.",
+            "hailing": "Yes, people are hailing a taxi on the street.",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, including a woman and a girl.",
+            "crowd": "No, there are only two people, a woman and a girl, standing together on the street.",
+            "fire_or_flood": "No, there is no fire in the image.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground in the image. The street appears to be clean and well-m",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone in the image.",
+            "faint": "Yes, there is a person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": true
+        },
+        "pred": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_3.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a woman holding a cigarette and smoking while standing on a bus.",
+            "hailing": "Yes, a woman is hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a woman standing on a sidewalk.",
+            "crowd": "No, there are only two people in the image, a woman and a man, who are standing next to each other.",
+            "fire_or_flood": "No, there is no fire in the image. The woman is smiling and holding her hand up, but there is no indication of a fire in the",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "Yes, there is a person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_4.jpg": {
+        "answer_dict": {
+            "smoking": "No, there is no person holding a cigarette and smoking in the image. The woman is holding a cell phone and walking down the street.",
+            "hailing": "Yes, a woman is hailing a taxi on the street.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image focuses on a woman walking down a city street.",
+            "crowd": "No, there is only one person, a woman, walking down the street.",
+            "fire_or_flood": "No, there is no fire in the image. The woman is walking down the street, smiling, and holding a cell phone.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground in the image.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is causing an issue for the woman walking down the street.",
+            "faint": "No, there is no person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": true,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_5.jpg": {
+        "answer_dict": {
+            "smoking": "No, there is no person holding a cigarette and smoking in the image. The woman is wearing a mask and pointing at something, but she",
+            "hailing": "No, the woman in the image is not hailing a taxi. She is wearing a mask and pointing at something, possibly indicating that she is trying",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there is only one person, a woman, standing on the side of the road.",
+            "fire_or_flood": "No, there is no fire in the image. The woman is wearing a face mask and standing on a street at night.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone in the image.",
+            "faint": "No, there is no person lying on the ground in the image. The woman is standing on the sidewalk, wearing a face mask."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_6.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a woman in the image who is smoking a cigarette while holding her arm out.",
+            "hailing": "Yes, a woman is hailing a taxi on the street.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image focuses on the woman standing on the side of the road.",
+            "crowd": "No, there are only a few people gathered together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The woman is standing on a street, pointing at a car, and there is no indication of a fire",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_7.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The man and woman are standing together, posing for a picture,",
+            "hailing": "Yes, the man and woman are hailing a taxi in the image.",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, including a man and a woman.",
+            "crowd": "No, there are only two people, a man and a woman, standing together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The man and woman are standing in front of a tree, posing for a picture.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground in the image.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image. The image features a man and a woman standing next to each other."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": true,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_8.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man holding a cigarette and smoking while standing on the sidewalk.",
+            "hailing": "Yes, a man is hailing a taxi on the street.",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, and they are walking around.",
+            "crowd": "No, there are only a few people walking on the street, and the man in the striped shirt is the only one pointing at something.",
+            "fire_or_flood": "No, there is no fire in the image. The man is simply pointing at something while standing on a city street.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The street appears to be clean and well-maintained.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone.",
+            "faint": "No, there is no person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_9.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man in the image who is smoking a cigarette while holding his arm out.",
+            "hailing": "Yes, a man is hailing a taxi on the street.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a man standing on a sidewalk.",
+            "crowd": "No, there is only one person, a man, standing on the sidewalk.",
+            "fire_or_flood": "No, there is no fire in the image. The man is simply standing on the sidewalk, wearing a coat and pointing his finger.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone.",
+            "faint": "No, there is no person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_1.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person smoking a cigarette while standing on the sidewalk.",
+            "hailing": "Yes, people are hailing a taxi on the street.",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are only a few people gathered together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a street with parked cars, a tree, and a building.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground in the image. The street appears to be clean and well-m",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone on the side of the road.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_10.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person holding a cigarette and smoking while riding a motorcycle in the city.",
+            "hailing": "Yes, people are hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a street scene with cars and a person on a motorcycle.",
+            "crowd": "No, there are only a few people gathered together in the image.",
+            "fire_or_flood": "No, there is no fire in the image.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The street is clean and well-maintained.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is a red zone.",
+            "faint": "No, there is no person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_2.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person smoking a cigarette while standing next to a car.",
+            "hailing": "Yes, people are hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a white car parked on the side of the road.",
+            "crowd": "No, there are only a few people gathered together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a white car parked on the side of the road, and there is no indication of",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there is a white car parked in a no-parking zone.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_3.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person smoking a cigarette while standing on the sidewalk.",
+            "hailing": "Yes, people are hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows a car driving down a street, and there are no other people visible in the",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a car driving down a street in front of a building.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground in the image. The street appears to be clean and well-m",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_4.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man holding a cigarette and smoking while standing next to the parked motorcycles.",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene features two motor scooters parked on the side of the road.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The scene is focused on the parked motorcycles and the street.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows two motorcycles parked on the side of the road, with no people",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a couple of motor scooters parked on the side of a road.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is located next to a sidewalk.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_5.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image. Instead, a white car is driving down the street.",
+            "ped_on_lawn": "Yes, there are pedestrians walking on the grass lawn near the street.",
+            "crowd": "No, there are only a few people gathered together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a white car driving down a street with a few people and motorcycles around.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The street is clean and clear.",
+            "illegal_parking": "Yes, there is a white car parked in a no-parking zone on the side of the road.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_6.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are people smoking cigarettes in the image.",
+            "hailing": "Yes, people are hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a parking lot with cars parked on the side of the road",
+            "crowd": "Yes, there are many people gathered together on the sidewalk, walking down the street.",
+            "fire_or_flood": "No, there is no fire in the image. The scene depicts a parking lot with cars parked on the street.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is a parking lot.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": false,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_7.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man smoking a cigarette while sitting on a yellow bike.",
+            "hailing": "Yes, people are hailing a taxi in the image.",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, and they are walking around the parked bicycles.",
+            "crowd": "No, there are not many people gathering together in the image. The scene mainly features a row of bicycles parked on the side of the street",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a group of bicycles parked on the side of the road.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is located near the bicycles.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_8.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man smoking a cigarette while standing next to a parked motorcycle.",
+            "hailing": "No, there are no people hailing a taxi in the image. Instead, there are several motorcycles and bicycles parked on the side",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, enjoying the outdoor space.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows a street with parked motorcycles and bicycles, but no people",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a group of bicycles parked on the side of a road, with no signs of",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is located next to a crosswalk.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_9.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person smoking a cigarette in the image.",
+            "hailing": "Yes, people are hailing a taxi in the image.",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are only a few people gathered together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a street with cars parked on the side of the road.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The street is clean and well-maintained.",
+            "illegal_parking": "Yes, there are two cars parked in a no-parking zone.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/leaves_1.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The scene shows a park with trees and a sidewalk.",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a street with trees, a building, and a sidewalk.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The scene is empty, with no people visible.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a tree-lined street with trees and buildings in the background.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground, indicating that the trees have shed their leaves.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone near a tree.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/leaves_2.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person smoking a cigarette in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows a car parked in a parking lot, and there are no people visible",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a car parked in a parking lot, and the sky is overcast.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground, and the street is littered with them.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/leaves_3.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The scene shows a blue fence, a building, and trees.",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene features a blue fence and a blue wall, with trees in the background",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows a blue fence and a building with a blue wall, and there are no",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a blue fence with a blue wall behind it, and a tree in front of it.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground near the blue fence.",
+            "illegal_parking": "No, there are no cars or vehicles parked in the no-parking zone. The area is empty, with only a blue fence and trees visible",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/leaves_4.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person holding a cigarette and smoking on the sidewalk.",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a sidewalk with leaves scattered on it, and a brick wall nearby",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a sidewalk with leaves on it, and the grass lawn is",
+            "crowd": "No, there are no people gathering together in the image. The scene shows a sidewalk with leaves scattered on it, and a brick wall nearby.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a sidewalk with leaves scattered on it, and a brick wall nearby.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground, which are scattered along the sidewalk.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone on the side of the street.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/leaves_5.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are people holding a cigarette and smoking on the sidewalk.",
+            "hailing": "Yes, people are hailing a taxi on the street.",
+            "ped_on_lawn": "Yes, there are pedestrians walking on the grass lawn near the street.",
+            "crowd": "No, there are no people gathering together in the image. The street appears to be empty.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a pile of leaves on the side of the road, which is a natural occurrence during the",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground, which are piled up on the sidewalk.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone along the side of the road.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_1.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The scene depicts an empty parking lot with a few cars",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows an empty parking lot with a few cars parked in it.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The area is empty.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows an empty parking lot with a few cars parked in it.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a parking lot with a few cars parked in it, and a building in the background",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_10.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows an empty street with no cars or people visible.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn.",
+            "crowd": "No, there are no people gathering together in the image. The street appears to be empty.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a street with a clear sky and no signs of fire.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground in the image. The street appears clean and well-maintained",
+            "illegal_parking": "No, there are no cars or vehicles parked in the no-parking zone. The street is empty and clear of any vehicles.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_11.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The scene depicts an empty road with a bridge in the background",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a bridge with a roadway and a few cars driving on it.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn.",
+            "crowd": "No, there are no people gathered together in the image. The scene shows an empty road with a bridge in the background.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a bridge with a road going over it, and there are no signs of fire or any other",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The road is clean and clear.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone on the bridge.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_12.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The street appears to be empty.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a city street with a bus stop, a bus, and a green sign.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The street is clean and well-maintained.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone on the side of the road.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_13.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are people smoking cigarettes on the side of the road.",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a highway with cars driving on it.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The street appears to be empty.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a city street with a bridge and a highway, with no signs of fire or any other ha",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground in the image. The street appears to be clean and well-m",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone on the side of the road.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_14.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The scene depicts a lonely highway at night with no people",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a car driving down a street at night, with a traffic light visible",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows an empty road with a bridge and traffic lights.",
+            "fire_or_flood": "No, there is no fire in the image. The scene depicts a dark street with a bridge, traffic lights, and a car driving down the road",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The street is clean and empty.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image. The street is empty and the traffic lights are lit up",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_15.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person smoking a cigarette in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a street with a building, a sidewalk, and a parking",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The scene is empty and quiet.",
+            "crowd": "No, there are no people gathering together in the image. The street appears to be empty.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a dark street with a building and a sidewalk.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground near the building.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone in front of a building.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_16.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The scene shows a bus driving down a street, and there are no",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a bus driving down a street.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows a bus driving down an empty street.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a white bus driving down a street with trees in the background.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The street is clean and clear.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone on the side of the road.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_17.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The scene depicts a highway with cars driving under a bridge,",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows cars driving on a highway, and there are traffic lights present.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows a lonely highway with cars driving on it.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a highway with cars driving under a bridge, and the sun is setting in the background.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The street is clean and empty.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone on the side of the road.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_18.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a car parked on the side of the road, and there are",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows an empty street with a car parked on the side.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a city street with a car parked on the side of the road.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground in the image. The street appears to be clean and well-m",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone on the side of the road.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_19.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The scene features a car parked in a parking lot, and",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a car parked in a parking lot, and there are no",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The scene is empty, with only a car parked in the parking lot.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows a car parked in a parking lot, with no other people visible.",
+            "fire_or_flood": "No, there is no fire visible in the image. The scene shows a parking lot with a car parked in it.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground in the parking lot.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_2.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are two people standing on the side of the road, smoking cigarettes.",
+            "hailing": "Yes, people are hailing a taxi on the street.",
+            "ped_on_lawn": "Yes, there are pedestrians walking on the grass lawn in the image.",
+            "crowd": "No, there are only two people standing in the middle of the street.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a street with a truck parked on the side, a person walking, and a tree",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground in the image.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone on the side of the road.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_20.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person holding a cigarette and smoking while standing on the side of the road.",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a lonely highway with no cars or people visible.",
+            "ped_on_lawn": "Yes, there are pedestrians walking on the grass lawn near the bridge.",
+            "crowd": "No, there are no people gathering together in the image. The street appears to be empty.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a highway with a bridge in the background, and there are no signs of fire or any other",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The road is clean and clear.",
+            "illegal_parking": "No, there are no cars or vehicles parked in the no-parking zone. The street is empty and clear of any vehicles.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_21.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are people holding a cigarette and smoking on the side of the road.",
+            "hailing": "Yes, people are hailing a taxi on the street.",
+            "ped_on_lawn": "Yes, there are pedestrians walking on the grass lawn near the street.",
+            "crowd": "No, there are very few people gathered together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a car driving down a street at night, with a bridge in the background.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The street is clean and empty.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone on the side of the road.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_22.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image.",
+            "ped_on_lawn": "No, the grass lawn in front of the building is empty.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows an empty street with a large building in the background.",
+            "fire_or_flood": "No, there is no fire in the image. The building is a large, multi-story office building with a red brick exterior.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_23.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a large building with a street in front of it, and a plane",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows an empty parking lot in front of a large building.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a large building with a blue roof, possibly a hotel, and a traffic light nearby.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone in front of the building.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_24.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image.",
+            "ped_on_lawn": "No, the grass lawn is empty of pedestrians.",
+            "crowd": "No, there are no people gathering together in the image. The street is empty, and the area appears to be deserted.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a street with trees and buildings, and it is a sunny day.",
+            "trash_or_fallen_leaves": "No, the ground is clean and free of trash, rubbish, or fallen leaves.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_25.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The scene is empty, with no people visible.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a large building with a blue roof, a street, and a parking lot.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground near the building.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone in front of a building.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_26.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The scene is empty and quiet.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a city street at night with a lit-up building and a lit-up staircase",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground near the building.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_27.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a large building with a patio and a lawn, and there",
+            "ped_on_lawn": "No, the grass lawn is empty of pedestrians.",
+            "crowd": "No, there are no people gathered together in the image. The area appears to be empty.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a patio area with a white building, a lawn, and a few chairs.",
+            "trash_or_fallen_leaves": "No, there are no trash or rubbish on the ground. The ground is clean and well-maintained.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_28.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The area appears to be empty.",
+            "crowd": "No, there are no people gathering together in the image. The scene is empty, with no people visible.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a large tree with a yellow sign on it, a building, and a street.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground in the image.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone in front of a building.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_29.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image.",
+            "ped_on_lawn": "No, the grass lawn is empty of pedestrians.",
+            "crowd": "No, there are no people gathered together in the image. The scene shows an empty street with a few buildings, a tree, and a sidewalk.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a building with a red door, a tree, and a sidewalk.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground in front of the building.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone in front of a building.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_3.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathered together in the image. The street appears to be empty.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a street with a building, trees, and a crosswalk.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground in the image. The street appears to be clean and well-m",
+            "illegal_parking": "No, there are no cars or vehicles parked in the no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_30.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathered together in the image. The scene shows an empty street in front of a large building.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a large building with a staircase and a sign in front of it.",
+            "trash_or_fallen_leaves": "No, the ground is clean and free of trash, rubbish, or fallen leaves.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_4.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn.",
+            "crowd": "No, there are no people gathering together in the image. The street appears to be empty.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a city street at night with a green light, and there are no signs of fire or any",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground in the image. The street appears to be clean and well-m",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is a violation of parking regulations.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_5.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are people smoking cigarettes on the street in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a street with parked cars and a few people walking on the side",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The street is empty and quiet.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a city street at night with cars parked on the side of the road.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The street is clean and empty.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone on the side of the street.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_6.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person smoking a cigarette while standing on the side of the road.",
+            "hailing": "Yes, people are hailing a taxi on the street at night.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The street is empty, and the only activity is a car driving down the road.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a street at night with a car driving down the road.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground in the image.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone on the side of the road.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_7.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person smoking a cigarette in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a city street with a few people walking around, but no taxi",
+            "ped_on_lawn": "Yes, there are pedestrians walking on the grass lawn in the image.",
+            "crowd": "No, there are no people gathering together in the image. The street appears to be empty.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a city street with a few trees, buildings, and a parking lot.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground in the image.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_8.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are two people holding a cigarette and smoking in the parking lot.",
+            "hailing": "Yes, people are hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The area appears to be empty.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows an empty parking lot with a few cars parked in it.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a parking lot with trees in the background, and the sky is pink.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is a parking lot with a fence.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_9.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a parking lot with a few cars and a truck, and",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The area is empty.",
+            "crowd": "No, there are no people gathering together in the image. The scene is empty, with no people visible.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a park with a field and trees, and the sun is setting in the background.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is a parking lot with a fence.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_1.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person holding a cigarette and smoking while sitting on the grass.",
+            "hailing": "No, the people in the image are not hailing a taxi. They are sitting on the grass in a park, enjoying their time together.",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, and they are walking around and enjoying the outdoor space.",
+            "crowd": "Yes, there are many people gathering together in a park, sitting on the grass and enjoying each other's company.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a group of people sitting on a grassy field, enjoying their time together.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and green, providing a pleasant environment for the",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "Yes, there are people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_10.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. Instead, there is a person holding a bag and bending over to",
+            "hailing": "No, the image does not depict people hailing a taxi. Instead, it shows a person bending over to pick up a bag or a piece",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, including a man and a woman.",
+            "crowd": "No, there is only one person, a young boy, who is seen in the image.",
+            "fire_or_flood": "No, there is no fire in the image.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there is no person lying on the ground in the image. Instead, there is a person bending over and reaching for something on the ground."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_2.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The two women are laying on the grass, and there is no",
+            "hailing": "No, the people in the image are not hailing a taxi. They are sitting on the grass in a park, enjoying their time together.",
+            "ped_on_lawn": "Yes, there are two pedestrians on the grass lawn, and they are sitting down.",
+            "crowd": "No, there are only two people, a man and a woman, gathering together in the grass.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows two women sitting in the grass, enjoying their time together.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground where the two women are sitting.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "Yes, there are two people lying on the ground in the grass."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_3.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are people holding a cigarette and smoking in the image.",
+            "hailing": "Yes, people are hailing a taxi in the image.",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, including a group of people sitting on a bench and others walking around.",
+            "crowd": "Yes, there are many people gathering together in the park, sitting on a bench and standing around.",
+            "fire_or_flood": "No, there is no fire in the image.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground in the park.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is near a tree and a bench.",
+            "faint": "Yes, there is a person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": true,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": true
+        },
+        "pred": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_4.jpg": {
+        "answer_dict": {
+            "smoking": "No, there is no person holding a cigarette and smoking in the image. The image features a young boy wearing a blue jacket and walking",
+            "hailing": "No, there is no indication in the image that people are hailing a taxi. The scene shows a young boy walking through a grassy area,",
+            "ped_on_lawn": "Yes, there is a young boy walking on the grass lawn.",
+            "crowd": "No, there is only one person, a young boy, walking in the grass.",
+            "fire_or_flood": "No, there is no fire in the image. The boy is walking in a grassy area, wearing a blue coat and a striped shirt.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground, and the boy is walking through them.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is near the grassy area where the boy is walking.",
+            "faint": "No, there is no person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_5.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man smoking a cigarette while standing in the grass.",
+            "hailing": "Yes, a group of people is hailing a taxi in the image.",
+            "ped_on_lawn": "Yes, there are pedestrians walking on the grass lawn.",
+            "crowd": "Yes, there is a large group of people gathering together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The scene depicts a group of people walking on a sidewalk near a tree.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground, indicating that the scene takes place in a park or an outdoor area with trees.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone, which is causing an issue for the people walking on the sidewalk.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": true,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_6.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person holding a cigarette and smoking while sitting on the grass.",
+            "hailing": "No, the people in the image are not hailing a taxi. They are in a park, and one of them is bending over to pick up",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, and they are walking around and enjoying the outdoor space.",
+            "crowd": "Yes, there are several people gathered together in the park, including a group of people sitting on the grass and others standing.",
+            "fire_or_flood": "No, there is no fire in the image. The people are simply sitting on the grass in a park.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground where the people are standing.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "Yes, there is a person lying on the ground in the grass."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_7.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. Instead, there is a woman taking a picture of a child in the",
+            "hailing": "No, the people in the image are not hailing a taxi. They are sitting on the grass, and a woman is taking a picture of a child",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, including a woman and a child.",
+            "crowd": "No, there are only two people, a woman and a child, gathered together in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a woman and a child sitting in the grass near some trees, with the woman taking a picture",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground where the woman and the child are sitting.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone in the image.",
+            "faint": "Yes, there is a woman lying on the ground next to a child."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_8.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are two people walking up a hill, and one of them is smoking a cigarette.",
+            "hailing": "No, the people in the image are not hailing a taxi. They are walking up a grassy hill or a grassy slope, possibly on a",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, and they are walking up a hill.",
+            "crowd": "No, there are only two people walking together on the grassy hill.",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a group of people walking up a grassy hill or mountain.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and green.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_9.jpg": {
+        "answer_dict": {
+            "smoking": "No, there is no person holding a cigarette and smoking in the image. The woman is standing in a grassy field, and there is no",
+            "hailing": "No, there is no indication in the image that the woman is hailing a taxi. She is standing in a grassy field, possibly in a",
+            "ped_on_lawn": "Yes, there is a woman walking on the grass lawn.",
+            "crowd": "No, there is only one person, a woman, standing in the grassy field.",
+            "fire_or_flood": "No, there is no fire in the image. The woman is standing in a grassy field, and there is no indication of a fire.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and green.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there is no person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_1.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man standing on the side of the road, holding a cigarette and smoking it.",
+            "hailing": "No, the image does not depict a person hailing a taxi. Instead, it shows a man smoking a cigarette while standing on a",
+            "ped_on_lawn": "Yes, there is a man standing on the grass lawn, smoking a cigarette.",
+            "crowd": "No, there is only one person, a man, standing alone in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The man is smoking a cigarette, and there is no indication of a fire.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground near the man.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there is no person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_10.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are two people in the image who are holding a cigarette and smoking.",
+            "hailing": "No, the image does not show people hailing a taxi. Instead, it shows two men smoking cigarettes and talking to each other.",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, including a man and a woman.",
+            "crowd": "No, there are only two people, a man and a boy, gathered together in the image.",
+            "fire_or_flood": "Yes, there is a fire in the image, as the two men are smoking cigarettes and one of them is lighting a cigarette",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_2.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man holding a cigarette and smoking while standing on the side of the road.",
+            "hailing": "No, the people in the image are not hailing a taxi. They are standing on the side of a road, and one man is smoking a",
+            "ped_on_lawn": "Yes, there are pedestrians on the grass lawn, including a man smoking a cigarette and another man taking a picture.",
+            "crowd": "No, there are only two people in the image, a man and a boy.",
+            "fire_or_flood": "No, there is no fire in the image.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone in the image.",
+            "faint": "Yes, there is a man lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": true
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_3.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man holding a cigarette and smoking while walking down the sidewalk.",
+            "hailing": "No, the man in the image is not hailing a taxi. He is walking down a path or sidewalk while using his cell phone.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image shows a man walking on a sidewalk.",
+            "crowd": "No, there is only one man walking down the sidewalk in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The man is walking down a path in a park, holding a cell phone and a bag.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone.",
+            "faint": "No, there is no person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_4.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a woman holding a cigarette and smoking it.",
+            "hailing": "No, there is no indication in the image that a person is hailing a taxi. The scene shows a woman smoking a cigarette while",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image only shows a woman smoking a cigarette.",
+            "crowd": "No, there is only one person, a woman, smoking a cigarette in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The woman is smoking a cigarette, which is a form of tobacco product.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there is no person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_5.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man in the image who is holding a cigarette and smoking.",
+            "hailing": "No, the image does not show people hailing a taxi. Instead, it shows a man smoking a cigarette and leaning against a tree",
+            "ped_on_lawn": "Yes, there is a man standing on the grass lawn, smoking a cigarette.",
+            "crowd": "No, there is only one man standing alone in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The man is smoking a cigarette and appears to be enjoying it.",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground near the man.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there is no person lying on the ground in the image. The man is standing next to a tree and smoking a cigarette."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_6.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man in a hat holding a cigarette and smoking it.",
+            "hailing": "No, the man in the image is not hailing a taxi. He is standing on the side of the road, wearing a hat and a scar",
+            "ped_on_lawn": "Yes, there is a man standing on the grass lawn, and he is wearing a hat.",
+            "crowd": "No, there is only one person, a man, standing alone in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The man is standing next to a fence and smoking a cigarette.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there is no person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_7.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man in the image who is holding a cigarette and smoking it.",
+            "hailing": "No, the image does not depict people hailing a taxi. Instead, it shows a man smoking a cigarette and looking at the camera",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image features a man smoking a cigarette in front of a building.",
+            "crowd": "No, there is only one man standing alone in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The man is smoking a cigarette and looking at the camera.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The man is standing on a clean sidewalk.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there is no person lying on the ground in the image. The man is standing and smoking a cigarette."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_8.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a man holding a cigarette and smoking in the image.",
+            "hailing": "Yes, a man is hailing a taxi in the image.",
+            "ped_on_lawn": "Yes, there are pedestrians walking on the grass lawn in the image.",
+            "crowd": "No, there is only one person, a man, smoking a cigarette in the image.",
+            "fire_or_flood": "Yes, there is a fire in the background of the image.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone in the image.",
+            "faint": "Yes, there is a person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": true
+        },
+        "pred": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_9.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is a person holding a cigarette and smoking while standing in a field.",
+            "hailing": "No, the image does not depict people hailing a taxi. Instead, it shows a woman wearing a hard hat and smoking a cigaret",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The image focuses on a woman wearing a hard hat and smoking a cig",
+            "crowd": "No, there is only one person, a woman, standing in the image.",
+            "fire_or_flood": "No, there is no fire in the image. The woman is smoking a cigarette while standing next to a pile of cement blocks.",
+            "trash_or_fallen_leaves": "No, there are no trash, rubbish, or fallen leaves on the ground. The ground is clean and clear.",
+            "illegal_parking": "No, there are no cars or vehicles parked in a no-parking zone in the image.",
+            "faint": "No, there is no person lying on the ground in the image. The image shows a woman standing on a construction site, wearing a hard hat and sm"
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/trash_1.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image.",
+            "hailing": "No, there are no people hailing a taxi in the image.",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The area appears to be empty.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows a large empty parking lot with a few trees and a building in the background",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a dirt field with a pile of pipes and a large pile of dirt",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground, and it appears to be a trashy area.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone, which is located next to a construction site.",
+            "faint": "Yes, there is a person lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/trash_2.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are people holding a cigarette and smoking on the side of the road.",
+            "hailing": "Yes, people are hailing a taxi on the street.",
+            "ped_on_lawn": "Yes, there are pedestrians walking on the grass lawn near the street.",
+            "crowd": "No, there are no people gathering together in the image. The street appears to be empty.",
+            "fire_or_flood": "No, there is no fire in the image. The scene depicts a street with a car driving down it, surrounded by trees and a parked tr",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground, and there is also trash or rubbish on the side of the road.",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone on the side of the road.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": true,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/trash_3.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. Instead, there is a trash can with trash on the ground",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene depicts a trash can on a wooden deck, with a p",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn. The area is empty.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows a lone trash can on a wooden deck, with a pile of",
+            "fire_or_flood": "No, there is no fire in the image. The scene shows a wooden deck with a trash can and a pile of trash, including plastic",
+            "trash_or_fallen_leaves": "Yes, there are fallen leaves on the ground, and there is also trash or rubbish scattered around the area.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone near the garbage can.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/trash_4.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. Instead, there is a pile of trash and a green tr",
+            "hailing": "No, there are no people hailing a taxi in the image. Instead, there is a pile of trash and a green trash can on",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn.",
+            "crowd": "No, there are no people gathering together in the image. Instead, there is a pile of trash and a green trash can on the side",
+            "fire_or_flood": "No, there is no fire in the image. The scene depicts a pile of trash and a green trash can on the side of a",
+            "trash_or_fallen_leaves": "Yes, there is a pile of trash or rubbish on the ground, and it is located near a green trash can.",
+            "illegal_parking": "Yes, there are cars parked in a no-parking zone, which is located next to a garbage can.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/trash_5.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are no people holding a cigarette and smoking in the image. The scene shows a dirty street with trash and debris,",
+            "hailing": "No, there are no people hailing a taxi in the image. The scene shows a street with trash and debris, including a pile",
+            "ped_on_lawn": "No, there are no pedestrians on the grass lawn.",
+            "crowd": "No, there are no people gathering together in the image. The scene shows a street with trash and debris, and a building with a sign",
+            "fire_or_flood": "No, there is no fire in the image. The scene depicts a street with trash and debris, including a pile of garbage and",
+            "trash_or_fallen_leaves": "Yes, there is trash or rubbish on the ground, including a pile of garbage and a bunch of trash on the side of the road",
+            "illegal_parking": "Yes, there is a car parked in a no-parking zone on the side of the road.",
+            "faint": "No, there are no people lying on the ground in the image."
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    }
+}

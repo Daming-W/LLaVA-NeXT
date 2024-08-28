@@ -1,0 +1,4622 @@
+{
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_1.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Yes, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_10.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "no",
+            "ped_on_lawn": "no",
+            "crowd": "Yes, there is",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_2.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Based on the image",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_3.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "Yes, there are",
+            "crowd": "Yes, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_4.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, the people",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Yes, there is",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_5.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, the people",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Yes, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_6.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, the image",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Yes, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_7.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Yes, there is",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_8.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "no",
+            "ped_on_lawn": "no",
+            "crowd": "Yes, there is",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "no",
+            "faint": "No"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/crowded_9.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "no",
+            "crowd": "Yes, there is",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_1.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "no",
+            "ped_on_lawn": "No",
+            "crowd": "No, there are",
+            "fire_or_flood": "no",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "no",
+            "faint": "Yes"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_10.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "Yes, there is"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_2.jpg": {
+        "answer_dict": {
+            "smoking": "no",
+            "hailing": "no",
+            "ped_on_lawn": "no",
+            "crowd": "no",
+            "fire_or_flood": "no",
+            "trash_or_fallen_leaves": "no",
+            "illegal_parking": "No",
+            "faint": "yes"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_3.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, the person",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "Yes, there is"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_4.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, the person",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Yes, there are",
+            "illegal_parking": "No, there are",
+            "faint": "Yes, there is"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_5.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, the person",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "Yes, there is"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_6.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, the person",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "Yes, there is"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_7.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, the person",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Yes, there are",
+            "illegal_parking": "No, there are",
+            "faint": "Yes, there is"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_8.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, the person",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "Yes, there is"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/faint_9.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, the person",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "Yes, there is"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_1.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "Yes, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_10.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No",
+            "crowd": "No, there are",
+            "fire_or_flood": "Yes",
+            "trash_or_fallen_leaves": "Yes, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_2.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No",
+            "crowd": "No, there are",
+            "fire_or_flood": "Yes, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_3.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "Yes, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_4.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "Yes, there is",
+            "trash_or_fallen_leaves": "Yes, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_5.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "Yes",
+            "trash_or_fallen_leaves": "Yes, there are",
+            "illegal_parking": "No",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_6.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "no",
+            "crowd": "No, there are",
+            "fire_or_flood": "Yes",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No",
+            "faint": "No"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_7.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "Yes, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_8.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "Yes, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/fire_9.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "Yes, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": true,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_1.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Based on the image",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_10.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_2.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_3.jpg": {
+        "answer_dict": {
+            "smoking": "no",
+            "hailing": "no",
+            "ped_on_lawn": "no",
+            "crowd": "no",
+            "fire_or_flood": "no",
+            "trash_or_fallen_leaves": "no",
+            "illegal_parking": "no",
+            "faint": "no"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_4.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_5.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, the person",
+            "ped_on_lawn": "no",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_6.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_7.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_8.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/hailing_9.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "no",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_1.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_10.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "Yes, there is",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_2.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "Yes, there is",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_3.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_4.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "Yes, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_5.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_6.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_7.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_8.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/illegal_parking_9.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "Yes, there is",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": true,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/leaves_1.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Yes, there are",
+            "illegal_parking": "No",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/leaves_2.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Yes, there are",
+            "illegal_parking": "No",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/leaves_3.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Yes, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/leaves_4.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Yes, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/leaves_5.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Yes, there is",
+            "illegal_parking": "No",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_1.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_10.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_11.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_12.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_13.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_14.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Based on the image",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "Based on the image",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_15.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Based on the image",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Based on the image",
+            "illegal_parking": "Based on the image",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_16.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_17.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_18.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_19.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Based on the image",
+            "illegal_parking": "No",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_2.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_20.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Based on the image",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_21.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_22.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_23.jpg": {
+        "answer_dict": {
+            "smoking": "no",
+            "hailing": "no",
+            "ped_on_lawn": "no",
+            "crowd": "no",
+            "fire_or_flood": "no",
+            "trash_or_fallen_leaves": "no",
+            "illegal_parking": "no",
+            "faint": "no"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_24.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_25.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_26.jpg": {
+        "answer_dict": {
+            "smoking": "No",
+            "hailing": "No",
+            "ped_on_lawn": "No",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_27.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_28.jpg": {
+        "answer_dict": {
+            "smoking": "No",
+            "hailing": "No",
+            "ped_on_lawn": "No",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No",
+            "faint": "No"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_29.jpg": {
+        "answer_dict": {
+            "smoking": "No",
+            "hailing": "No",
+            "ped_on_lawn": "no",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No",
+            "faint": "No"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_3.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_30.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_4.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Based on the image",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Based on the image",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_5.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_6.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "no",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "Based on the image",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_7.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_8.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Based on the image",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/neg_9.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Based on the image",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Based on the image",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_1.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Yes, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No",
+            "faint": "Yes, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_10.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "Yes, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_2.jpg": {
+        "answer_dict": {
+            "smoking": "no",
+            "hailing": "no",
+            "ped_on_lawn": "No",
+            "crowd": "No",
+            "fire_or_flood": "no",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "no",
+            "faint": "yes"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": true
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_3.jpg": {
+        "answer_dict": {
+            "smoking": "No",
+            "hailing": "no",
+            "ped_on_lawn": "yes",
+            "crowd": "Yes, there are",
+            "fire_or_flood": "No",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No",
+            "faint": "No"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_4.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_5.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, the image",
+            "ped_on_lawn": "Yes, there are",
+            "crowd": "Yes, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Yes, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_6.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "no",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Yes, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": true,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_7.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_8.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "Yes, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/ped_on_lawn_9.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_1.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_10.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there are",
+            "hailing": "No, there are",
+            "ped_on_lawn": "No, there are",
+            "crowd": "Based on the image",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_2.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is",
+            "hailing": "No, there is",
+            "ped_on_lawn": "Yes, there are",
+            "crowd": "Based on the image",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_3.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "Yes, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": true,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_4.jpg": {
+        "answer_dict": {
+            "smoking": "no",
+            "hailing": "no",
+            "ped_on_lawn": "no",
+            "crowd": "No, there are",
+            "fire_or_flood": "no",
+            "trash_or_fallen_leaves": "no",
+            "illegal_parking": "no",
+            "faint": "no"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_5.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_6.jpg": {
+        "answer_dict": {
+            "smoking": "yes",
+            "hailing": "no",
+            "ped_on_lawn": "no",
+            "crowd": "no",
+            "fire_or_flood": "no",
+            "trash_or_fallen_leaves": "no",
+            "illegal_parking": "no",
+            "faint": "no"
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_7.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, the image",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_8.jpg": {
+        "answer_dict": {
+            "smoking": "Yes, there is",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": true,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/smoking_9.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/trash_1.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Yes, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/trash_2.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Yes, there are",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/trash_3.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "No, there is",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Yes, there is",
+            "illegal_parking": "No, there are",
+            "faint": "No, there are"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/trash_4.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "no",
+            "ped_on_lawn": "No, there are",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "Yes, there is",
+            "illegal_parking": "No",
+            "faint": "No"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": true,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    "/root/LLaVA_SU/su_data/eval_8cls/trash_5.jpg": {
+        "answer_dict": {
+            "smoking": "No, there are",
+            "hailing": "no",
+            "ped_on_lawn": "no",
+            "crowd": "No, there are",
+            "fire_or_flood": "No, there is",
+            "trash_or_fallen_leaves": "No, there is",
+            "illegal_parking": "No",
+            "faint": "No"
+        },
+        "bool_dict": {
+            "smoking": false,
+            "hailing": false,
+            "ped_on_lawn": false,
+            "crowd": false,
+            "fire_or_flood": false,
+            "trash_or_fallen_leaves": false,
+            "illegal_parking": false,
+            "faint": false
+        },
+        "pred": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ground_truth": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
+    }
+}

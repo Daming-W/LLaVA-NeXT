@@ -1,0 +1,9 @@
+{
+    "smoking": ["Reply True or False: Are there people smoking"],
+    "hailing": ["Reply True or False: Are people hailing a taxi"],
+    "ped_on_lawn": ["Reply True or False: Are there pedestrians on the lawn"],
+    "crowded": ["Reply True or False: Are many people gathering together"],
+    "fire": ["Reply True or False: Is there on fire?"],
+    "trash": ["Reply True or False: Are there trash or leaves on the ground"],
+    "illegal_parking": ["Reply True or False: Are there vehicles parking in a prohibited area"]
+}

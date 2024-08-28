@@ -1,0 +1,37 @@
+{
+    "/root/LLaVA_SU/su_data/eval/neg_1.jpg": [0,0,0,0,0,0,0],
+    "/root/LLaVA_SU/su_data/eval/neg_2.jpg": [0,0,0,0,0,0,0],
+    "/root/LLaVA_SU/su_data/eval/neg_3.jpg": [0,0,0,0,0,0,0],
+    "/root/LLaVA_SU/su_data/eval/neg_4.jpg": [0,0,0,0,0,0,0],
+    "/root/LLaVA_SU/su_data/eval/neg_5.jpg": [0,0,0,0,0,0,0],
+    "/root/LLaVA_SU/su_data/eval/neg_6.jpg": [0,0,0,0,0,0,0],
+
+    "/root/LLaVA_SU/su_data/eval/smoking_1.jpg": [1,0,0,0,0,0,0],
+    "/root/LLaVA_SU/su_data/eval/smoking_2.jpg": [1,0,0,0,0,0,0],
+
+    "/root/LLaVA_SU/su_data/eval/hailing_1.jpg": [0,1,0,0,0,0,0],
+    "/root/LLaVA_SU/su_data/eval/hailing_2.jpg": [0,1,0,0,0,0,0],
+
+    "/root/LLaVA_SU/su_data/eval/ped_on_lawn_1.jpg": [0,0,1,0,0,0,0],
+    "/root/LLaVA_SU/su_data/eval/ped_on_lawn_2.jpg": [0,0,1,0,0,0,0],
+    "/root/LLaVA_SU/su_data/eval/ped_on_lawn_3.jpg": [0,0,1,0,0,0,0],
+
+    "/root/LLaVA_SU/su_data/eval/crowded_1.jpg": [0,0,0,1,0,0,0],
+    "/root/LLaVA_SU/su_data/eval/crowded_2.jpg": [0,0,0,1,0,0,0],
+
+    "/root/LLaVA_SU/su_data/eval/fire_1.jpg": [0,0,0,0,1,0,0],
+    "/root/LLaVA_SU/su_data/eval/fire_2.jpg": [0,0,0,0,1,0,0],
+
+    "/root/LLaVA_SU/su_data/eval/leaves_1.jpg": [0,0,0,0,0,1,0],
+    "/root/LLaVA_SU/su_data/eval/leaves_2.jpg": [0,0,0,0,0,1,0],
+    "/root/LLaVA_SU/su_data/eval/leaves_3.jpg": [0,0,0,0,0,1,0],
+
+    "/root/LLaVA_SU/su_data/eval/trash_1.jpg": [0,0,0,0,0,1,0],
+    "/root/LLaVA_SU/su_data/eval/trash_2.jpg": [0,0,0,0,0,1,0],
+    "/root/LLaVA_SU/su_data/eval/trash_3.jpg": [0,0,0,0,0,1,0],
+
+    "/root/LLaVA_SU/su_data/eval/illegal_parking_1.jpg": [0,0,0,0,0,0,1],
+    "/root/LLaVA_SU/su_data/eval/illegal_parking_2.jpg": [0,0,0,0,0,0,1],
+    "/root/LLaVA_SU/su_data/eval/illegal_parking_3.jpg": [0,0,0,0,0,0,1],
+    "/root/LLaVA_SU/su_data/eval/illegal_parking_4.jpg": [0,0,0,0,0,0,1]
+}

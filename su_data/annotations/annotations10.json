@@ -1,0 +1,902 @@
+{
+    "/root/LLaVA_SU/su_data/eval_10/crowded_1.jpg": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/crowded_2.jpg": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/crowded_3.jpg": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/crowded_4.jpg": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/crowded_5.jpg": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/crowded_6.jpg": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/crowded_7.jpg": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/crowded_8.jpg": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/crowded_9.jpg": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/crowded_10.jpg": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/fire_1.jpg": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/fire_2.jpg": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/fire_3.jpg": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/fire_4.jpg": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/fire_5.jpg": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/fire_6.jpg": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/fire_7.jpg": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/fire_8.jpg": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/fire_9.jpg": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/fire_10.jpg": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/hailing_1.jpg": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/hailing_2.jpg": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/hailing_3.jpg": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/hailing_4.jpg": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/hailing_5.jpg": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/hailing_6.jpg": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/hailing_7.jpg": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/hailing_8.jpg": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/hailing_9.jpg": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/hailing_10.jpg": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/illegal_parking_1.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/illegal_parking_2.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/illegal_parking_3.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/illegal_parking_4.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/illegal_parking_5.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/illegal_parking_6.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/illegal_parking_7.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/illegal_parking_8.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/illegal_parking_9.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/illegal_parking_10.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/leaves_1.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/leaves_2.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/leaves_3.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/leaves_4.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/leaves_5.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_1.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_2.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_3.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_4.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_5.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_6.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_7.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_8.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_9.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_10.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/ped_on_lawn_1.jpg": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/ped_on_lawn_2.jpg": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/ped_on_lawn_3.jpg": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/ped_on_lawn_4.jpg": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/ped_on_lawn_5.jpg": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/ped_on_lawn_6.jpg": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/ped_on_lawn_7.jpg": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/ped_on_lawn_8.jpg": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/ped_on_lawn_9.jpg": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/ped_on_lawn_10.jpg": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/smoking_1.jpg": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/smoking_2.jpg": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/smoking_3.jpg": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/smoking_4.jpg": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/smoking_5.jpg": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/smoking_6.jpg": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/smoking_7.jpg": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/smoking_8.jpg": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/smoking_9.jpg": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/smoking_10.jpg": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/trash_1.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/trash_2.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/trash_3.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/trash_4.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/trash_5.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_27.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_29.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_30.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_11.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_12.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_13.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_14.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_15.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_16.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_17.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_18.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_19.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_20.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_21.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_22.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_23.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_24.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_25.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_26.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "/root/LLaVA_SU/su_data/eval_10/neg_28.jpg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "smoking": ["Are there any people holding a cigaret and smoking? (answer certainly)"],
+    "hailing": ["Are people hailing a taxi? (answer certainly)"],
+    "ped_on_lawn": ["Are there pedestrians on the grass lawn? (answer certainly)"],
+    "crowd": ["Are there many people gathering together? (answer certainly)"],
+    "fire_or_flood": ["Is there on fire? (answer certainly)"],
+    "trash_or_fallen_leaves": ["Are there trash or rubbish on the ground? (answer certainly)"],
+    "illegal_parking": ["Is there any cars/vehicles parking in a no-parking zone? (answer certainly)"]
+}
